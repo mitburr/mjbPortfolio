@@ -4,11 +4,13 @@
   "private": true,
   "homepage": "https://github.com/mitburr/UpdatedPortfolio",
   "dependencies": {
+    "axios": "^0.18.0",
     "gh-pages": "^2.0.1",
     "hellojs": "^2.0.0-4",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
     "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8"
   },
   "scripts": {
