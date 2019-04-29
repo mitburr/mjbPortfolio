@@ -5,7 +5,6 @@ import Card from '../../components/Card'
 import ListVanilla from "../../components/List/listVanilla"
 import ListElement from '../../components/List/ListElement'
 import { Col, Row, Container } from "../../components/Grid";
-import projectRepos from "../../../Assets/projectRepos.json"
 import "./Project.css"
 
 
@@ -50,7 +49,7 @@ class Projects extends React.Component {
     //fill the repo array
     loadRepos = () => {
         API.gitRepos().then(res => {
-            this.setState({ repos: res.data })
+            this.setState({repos : res })
             console.log(this.state.repos);
         })
             .catch(err => {
@@ -68,7 +67,7 @@ class Projects extends React.Component {
                         <ListVanilla>
                             {projectsArray.map(repo =>{
                                 return (
-                                    <Card link = {repo.link} title = {repo.title} image = {repo.image} description = {repo.description}></Card>
+                                    <Card key = {repo.title} link = {repo.link} title = {repo.title} image = {repo.image} description = {repo.description}></Card>
                                 )
                             })}
                         </ListVanilla>

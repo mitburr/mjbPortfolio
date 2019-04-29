@@ -21,6 +21,7 @@ class Projects extends React.Component {
                     </Col>
                     </Row>
                 </Container>
+                <iframe frameborder="0" scrolling="no" src="https://umn.credly.com/embed.html#/?member_badge_id=17623487" width="180" height="230"></iframe>
             </div>
         )
     }
