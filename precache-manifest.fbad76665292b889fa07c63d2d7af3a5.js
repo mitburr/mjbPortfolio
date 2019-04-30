@@ -16,19 +16,19 @@ self.__precacheManifest = [
     "url": "/mitburr/UpdatedPortfolio/static/js/runtime~main.f7fe231b.js"
   },
   {
-    "revision": "7652130e9b52822c358f",
-    "url": "/mitburr/UpdatedPortfolio/static/js/main.d26c3e5a.chunk.js"
+    "revision": "3bf09bcf463034e18eaa",
+    "url": "/mitburr/UpdatedPortfolio/static/js/main.cbce89e9.chunk.js"
   },
   {
-    "revision": "a9c7d8e5d9ffac3f8da0",
-    "url": "/mitburr/UpdatedPortfolio/static/js/2.a5b2eb41.chunk.js"
+    "revision": "2d827885ab5fecd7cde8",
+    "url": "/mitburr/UpdatedPortfolio/static/js/2.31fa36fe.chunk.js"
   },
   {
-    "revision": "7652130e9b52822c358f",
-    "url": "/mitburr/UpdatedPortfolio/static/css/main.08d2623b.chunk.css"
+    "revision": "3bf09bcf463034e18eaa",
+    "url": "/mitburr/UpdatedPortfolio/static/css/main.0a46e33b.chunk.css"
   },
   {
-    "revision": "d2205e50253ef8fe9c7260e3c31b6a0f",
+    "revision": "93bf5618b4660eef88cf631dda7206d1",
     "url": "/mitburr/UpdatedPortfolio/index.html"
   }
 ];
